@@ -1,0 +1,16 @@
+%-------------%
+% Final notes %
+% Page 6      %
+%-------------%
+
+instruct = [ ...
+    'The task should take about 40 minutes. Try to be \n' ...
+    'as fast and accurate as possible! The task can be \n' ...
+    'dull, and it can get hard at times, but the data \n' ...
+    'are very useful. We appreciate your effort!' ];
+[nx,ny,bbox] = displayInstruct( window, instruct, center, ...
+    lnSpace, InstructionTime, pakSpace );
+
+
+% Wait for a keystroke on the keyboard:
+Post_instruction
